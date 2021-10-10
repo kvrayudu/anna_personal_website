@@ -1,0 +1,96 @@
+/* PHONE */
+#digitalSection{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 120px;  
+}
+
+.items{
+    display:inline-block;
+}
+.projectLink{
+    color: #808080; 
+}
+
+.projectLink:hover{
+    text-decoration: none;
+    color: #ff7208;  
+    cursor: pointer;
+}
+
+.digitalSectionHead{
+    font-size: 36px;
+    color:  #ff7208;
+}
+
+
+/* IMAGES */
+#thesisMovingImg{
+    padding-top: 10px;
+    margin-bottom: 10px;
+    width:300px;
+    position: absolute;
+    display: none;  
+}
+
+#coloringMenuMovingImg{
+    padding-top: 10px;
+    margin-bottom: 10px;
+    width:300px;
+    position: absolute;
+    display: none;  
+}
+
+#pocketDemMovingImg{
+    padding-top: 10px;
+    margin-bottom: 10px;
+    width:300px;
+    position: absolute;
+    display: none;
+}
+#nytMovingImg{
+    padding-top: 10px;
+    margin-bottom: 10px;
+    width:300px;
+    position: absolute;
+    display: none;
+}
+
+#bloombergMovingImg{
+    padding-top: 10px;
+    margin-bottom: 10px;
+    width:300px;
+    position: absolute;
+    display: none;
+}
+
+#tattooMovingImg{
+    padding-top: 10px;
+    margin-bottom: 10px;
+    width:300px;
+    position: absolute;
+    display: none;
+}
+
+#museumMovingImg{
+    padding-top: 10px;
+    margin-bottom: 10px;
+    width:300px;
+    position: absolute;
+    display: none;  
+}
+
+.modalStyling{
+    font-family: Redaction;
+    width: 500px;
+}
+.modalImg{
+    width:100%;
+}
+
+/* MEDIUM SIZE AND ABOVE */
+@media (min-width: 768px){
+    #digitalSection{
+        font-size: 24px;
+    }   
+}
